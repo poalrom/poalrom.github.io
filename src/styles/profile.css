@@ -1,0 +1,17 @@
+.profile {
+  margin-bottom: 1rem;
+}
+.profile__param {
+  margin-bottom: 2rem;
+}
+.profile__param-title {
+  display: block;
+  font-size: 1.6rem;
+  margin-bottom: 0.5rem;
+}
+
+@media (min-width: 600px) {
+  .profile {
+    margin-bottom: 0;
+  }
+}

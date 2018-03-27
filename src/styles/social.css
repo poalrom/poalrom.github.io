@@ -1,0 +1,45 @@
+.social {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 1rem;
+}
+.social__link {
+  background-size: 2rem;
+  background-position: 0.7rem center;
+  background-repeat: no-repeat;
+  border: 1px solid white;
+  border-radius: 50%;
+  display: block;
+  height: 3.5rem;
+  font-size: 0;
+  margin-right: 10px;
+  transition: 0.2s border-color linear, 0.2s background-color linear;
+  width: 3.5rem;
+}
+.social__link:last-child {
+  margin-right: 0;
+}
+.social__link_dark {
+  background-color: gray;
+  border-color: gray;
+}
+.social__link:hover,
+.social__link:focus,
+.social__link:active {
+  background-color: black;
+  border-color: black;
+  outline: none;
+}
+.social__link_vk {
+  background-image: url(/images//vk.svg);
+}
+.social__link_tg {
+  background-image: url(/images//tg.svg);
+}
+.social__link_gh {
+  background-image: url(/images//gh.svg);
+}
+.social__link_mail {
+  background-image: url(/images//mail.svg);
+}

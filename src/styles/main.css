@@ -1,0 +1,15 @@
+.main {
+  align-items: center;
+  background-color: gray;
+  background-image: url(/images/main_bg.jpg);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  width: 100%;
+}
+.main .main__title {
+  font-size: 6.4rem;
+  margin: 0.5rem 0 1rem;
+}

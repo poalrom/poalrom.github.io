@@ -1,0 +1,55 @@
+.skill__title {
+  font-size: 1.3rem;
+  font-weight: normal;
+  margin: 1.5rem 0 0.5rem;
+}
+.skill__progress {
+  background-color: #e4e4e4;
+  box-sizing: border-box;
+  color: #fff;
+  font-size: 1.1rem;
+  height: 1.5rem;
+  line-height: 1.5rem;
+  padding-left: 1rem;
+  position: relative;
+  width: 100%;
+  z-index: 2;
+}
+.skill__progress::after {
+  background-color: #000;
+  content: " ";
+  display: block;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: -1;
+}
+.skill__progress_90::after {
+  width: 90%;
+}
+.skill__progress_80::after {
+  width: 80%;
+}
+.skill__progress_70::after {
+  width: 70%;
+}
+.skill__progress_60::after {
+  width: 60%;
+}
+.skill__progress_50::after {
+  width: 50%;
+}
+.skill__progress_40::after {
+  width: 40%;
+}
+.skill__progress_30::after {
+  width: 30%;
+}
+.skill__progress_20::after {
+  width: 20%;
+}
+.skill__progress_10::after {
+  width: 10%;
+}

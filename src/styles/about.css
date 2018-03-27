@@ -1,0 +1,28 @@
+.about {
+  padding-top: 5rem;
+}
+.about__content {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin: 2.5rem 0;
+}
+.about__photo {
+  border-radius: 50%;
+  height: 15rem;
+  margin: 0 0 1rem;
+  width: 15rem;
+}
+
+@media (min-width: 600px) {
+  .about {
+    padding-top: 10rem;
+  }
+  .about__content {
+    flex-direction: row;
+    margin-bottom: 5rem;
+  }
+  .about__photo {
+    margin: 0 5rem 0 0;
+  }
+}
