@@ -32,14 +32,14 @@
   outline: none;
 }
 .social__link_vk {
-  background-image: url(/images//vk.svg);
+  background-image: url(/public/images//vk.svg);
 }
 .social__link_tg {
-  background-image: url(/images//tg.svg);
+  background-image: url(/public/images//tg.svg);
 }
 .social__link_gh {
-  background-image: url(/images//gh.svg);
+  background-image: url(/public/images//gh.svg);
 }
 .social__link_mail {
-  background-image: url(/images//mail.svg);
+  background-image: url(/public/images//mail.svg);
 }

@@ -1,7 +1,7 @@
 .main {
   align-items: center;
   background-color: gray;
-  background-image: url(/images/main_bg.jpg);
+  background-image: url(/public/images/main_bg.jpg);
   color: white;
   display: flex;
   flex-direction: column;

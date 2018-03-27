@@ -9,7 +9,7 @@ gulp.task("html", () => {
   return gulp
     .src("src/*.html")
     .pipe(htmlmin({ collapseWhitespace: true }))
-    .pipe(gulp.dest("public"));
+    .pipe(gulp.dest("."));
 });
 
 gulp.task("css", () => {
