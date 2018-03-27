@@ -9,6 +9,7 @@
 }
 .about__photo {
   border-radius: 50%;
+  flex: 1 1 0;
   height: 15rem;
   margin: 0 0 1rem;
   width: 15rem;
